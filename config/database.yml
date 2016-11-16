@@ -2,28 +2,28 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  host: 203.193.173.123
+  host: localhost
   database: angjuly7
   pool: 5
   username: root
-  password: root
+  password: 
   
 production:
   adapter: mysql2
   encoding: utf8
-  host: 203.193.173.123  
+  host: localhost  
   reconnect: false
   database: angjuly7
   pool: 5
   username: root
-  password: root
+  password: 
   
 test:
   adapter: mysql2
   encoding: utf8
-  host: 203.193.173.123  
+  host: localhost  
   reconnect: false
   database: angjuly7
   pool: 5
   username: root
-  password: root  
+  password:   
